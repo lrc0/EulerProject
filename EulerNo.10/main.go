@@ -46,6 +46,7 @@ func main() {
 	fmt.Println("time = ", (end-start)/1000000)
 }
 
+//IsPrime 判断素数
 func IsPrime(i int) bool {
 	if i == 2 || i == 3 {
 		return true

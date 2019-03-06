@@ -26,7 +26,7 @@ func main() {
 			continue
 		} else {
 			result := DecompositionMassFactor(s)
-			if result >= 1000 && result < 1100 {
+			if result >= 500 && result < 600 {
 				fmt.Println("result = ", result)
 				fmt.Println("the number is : ", s)
 				break
